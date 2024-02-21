@@ -22,3 +22,4 @@ Create SPF tools to work with FPS Databases.
     python -m build
 
     pip install git+ssh://git@github.com/cvopicka/VopickaDEV-SIRM_SPF_libs.git
+    pip install git+https://github.com/cvopicka/VopickaDEV-SIRM_SPF_libs.git
