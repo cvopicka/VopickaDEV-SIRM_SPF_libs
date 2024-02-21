@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [{ name = "Charles E. Vopicka" }]
+maintainers = [{ name = "Charles E. Vopicka" }]
+name = "sirm_spf_libs"
+description = "Basic SPF tools to work with an FPS database"
+dependencies = ["pathlib", "configparser", "pyodbc"]
+requires-python = ">= 3.6"
+dynamic = ["version"]
+readme = "README.md"
+license = { file = "LICENSE" }
+classifiers = ["Development Status :: 3 - Alpha"]
+
+[tool.setuptools.dynamic]
+version = { attr = "sirm_spf_libs.__version__" }
